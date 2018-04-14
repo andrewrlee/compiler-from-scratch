@@ -1,0 +1,12 @@
+
+def addTwice(x, y)
+   add(add(x, y), y)
+end
+
+def squared(x)
+   multiply(x, x)
+end
+
+def addedTwiceAndSquared(x, y)
+   squared(addTwice(x, y))
+end
