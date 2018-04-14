@@ -1,13 +1,13 @@
-package uk.co.optimisticpanda;
+package uk.co.optimisticpanda.compilerfromscratch;
 
-import uk.co.optimisticpanda.Parser.CallNode;
-import uk.co.optimisticpanda.Parser.DefNode;
-import uk.co.optimisticpanda.Parser.Node;
-import uk.co.optimisticpanda.Parser.VarRefNode;
+import uk.co.optimisticpanda.compilerfromscratch.Parser.CallNode;
+import uk.co.optimisticpanda.compilerfromscratch.Parser.DefNode;
+import uk.co.optimisticpanda.compilerfromscratch.Parser.Node;
+import uk.co.optimisticpanda.compilerfromscratch.Parser.VarRefNode;
 
 import static java.lang.String.format;
 import static java.util.stream.Collectors.joining;
-import static uk.co.optimisticpanda.Parser.*;
+import static uk.co.optimisticpanda.compilerfromscratch.Parser.*;
 
 public class CodeGenerator {
 

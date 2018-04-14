@@ -1,7 +1,7 @@
-package uk.co.optimisticpanda;
+package uk.co.optimisticpanda.compilerfromscratch;
 
 import org.immutables.value.Value;
-import uk.co.optimisticpanda.Tokeniser.Token;
+import uk.co.optimisticpanda.compilerfromscratch.Tokeniser.Token;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -9,11 +9,11 @@ import java.util.List;
 import java.util.Queue;
 import java.util.concurrent.LinkedBlockingQueue;
 
-import static uk.co.optimisticpanda.Parser.Node.NodeType.CALL;
-import static uk.co.optimisticpanda.Parser.Node.NodeType.INT;
-import static uk.co.optimisticpanda.Parser.Node.NodeType.VAR;
-import static uk.co.optimisticpanda.Tokeniser.TokenType;
-import static uk.co.optimisticpanda.Tokeniser.TokenType.*;
+import static uk.co.optimisticpanda.compilerfromscratch.Parser.Node.NodeType.CALL;
+import static uk.co.optimisticpanda.compilerfromscratch.Parser.Node.NodeType.INT;
+import static uk.co.optimisticpanda.compilerfromscratch.Parser.Node.NodeType.VAR;
+import static uk.co.optimisticpanda.compilerfromscratch.Tokeniser.TokenType;
+import static uk.co.optimisticpanda.compilerfromscratch.Tokeniser.TokenType.*;
 
 public class Parser {
 

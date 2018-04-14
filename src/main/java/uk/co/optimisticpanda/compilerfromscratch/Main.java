@@ -1,4 +1,4 @@
-package uk.co.optimisticpanda;
+package uk.co.optimisticpanda.compilerfromscratch;
 
 import java.io.File;
 import java.nio.file.Files;
